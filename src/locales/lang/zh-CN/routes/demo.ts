@@ -96,6 +96,7 @@ export default {
   flow: {
     name: '图形编辑器',
     flowChart: '流程图',
+    x6: 'x6demo',
   },
   form: {
     form: 'Form',

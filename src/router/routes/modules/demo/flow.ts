@@ -22,6 +22,14 @@ const charts: AppRouteModule = {
         title: t('routes.demo.flow.flowChart'),
       },
     },
+    {
+      path: 'x6',
+      name: 'x6',
+      component: () => import('/@/views/demo/comp/x6Demo/index.vue'),
+      meta: {
+        title: t('routes.demo.flow.x6'),
+      },
+    },
   ],
 };
 
